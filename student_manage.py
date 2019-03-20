@@ -1,13 +1,13 @@
 ##Coded By JaskaranSM##
-import subprocess     #Python Module for intereating with OS calls.
-import os             #Python Module for intereating with OS calls
+import subprocess     #Python Module for interacting with OS calls.
+import os             #Python Module for interacting with OS calls
 
 
 #variables    
 name = ""
 roll = int()   
 clear = "clear"
-database = "database.txt"
+database = "database.txt"  #Database File Path
 
 #Function Blocks
 os.system(clear)   #Function to clear Console Screen xD
