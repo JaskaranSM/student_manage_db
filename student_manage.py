@@ -74,7 +74,7 @@ def menu():                        #Main Function Block
 
     elif choice == 2:
         decorate_read()
-        r = open("database.txt","r")
+        r = open(database,"r")
         db = r.read()
         print(db)
         r.close()
